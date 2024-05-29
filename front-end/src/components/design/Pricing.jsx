@@ -9,7 +9,6 @@ export const LeftLine = () => {
         width={1480}
         height={177}
         alt="Lines"
-        
       />
     </div>
   );

@@ -23,9 +23,9 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-          Nuevas Elecciones &nbsp;Transparentes y&nbsp;Auténticas{` `}
+      
             <span className="inline-block relative">
-              (NETA){" "}
+              NETA:{" "}
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
@@ -33,15 +33,13 @@ const Hero = () => {
                 height={28}
                 alt="Curve"
               />
-            </span>
+            </span> Nuevas Elecciones Transparentes y Auténticas
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-          NETA es una plataforma de votación electrónica que utiliza tecnología blockchain para 
-          garantizar que cada voto sea seguro, anónimo y verificable. Nuestra misión es aumentar la
-           confianza en los procesos electorales y fomentar una mayor participación ciudadana.
+          NETA es una plataforma de votación electrónica que utiliza tecnología blockchain para garantizar que cada voto sea seguro, anónimo y verificable. Nuestra misión es aumentar la confianza en los procesos electorales y fomentar una mayor participación ciudadana.
           </p>
           <Button href="/pricing" white>
-            Próximamente...
+            Demo
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">

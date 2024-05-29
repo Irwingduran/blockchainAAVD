@@ -9,7 +9,6 @@ export const Rings = () => {
   );
 };
 
-
 export const SideLines = () => {
   return (
     <>

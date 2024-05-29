@@ -15,7 +15,6 @@ const Notification = ({ className, title }) => {
         alt="image"
         className="rounded-xl"
       />
-      
 
       <div className="flex-1">
         <h6 className="mb-1 font-semibold text-base">{title}</h6>

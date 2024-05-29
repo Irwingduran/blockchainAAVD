@@ -10,5 +10,4 @@ const TagLine = ({ className, children }) => {
   );
 };
 
-
 export default TagLine;
